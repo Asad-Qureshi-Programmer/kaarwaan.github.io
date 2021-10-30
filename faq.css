@@ -1,0 +1,164 @@
+/* The Overlay (background) */
+.feedback_overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.feedback-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.feedback_overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.feedback_overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.feedback_overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .feedback_overlay a {font-size: 20px}
+  .feedback_overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/*form style sheet*/
+
+.donation_form_container
+{
+  box-shadow: 0px 0px 5px 3px lavender;
+  
+  background-color: white;
+
+
+
+}
+
+/* Full-width input fields */
+  .donation_form_container input[type=Date], select,option, input[type=number], input[type=text], input[type=password], textarea{
+  width: 100%;
+  padding: 3px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  background-color: white;  
+}
+
+
+
+.donation_form_container input[type=Date], select:focus,option:focus, input[type=number]:focus, input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  
+  outline: 1px solid pink;
+  background-color: white;
+}
+
+.donation_form_container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+/* Set a style for all buttons */
+.donation_form_container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 4px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.donation_form_container button:hover {
+  opacity:1;
+}
+
+
+
+/* Add padding to container elements */
+.inside_form_container {
+  padding: 16px;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.faq_content
+{
+ /* border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;*/
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #666666;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width:100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /*font-size: 15px;*/
+  border-bottom: 1px solid white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #404040;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden ;
+  background-color: #f1f1f1;
+}
+ul {
+  list-style-type: none;
+}

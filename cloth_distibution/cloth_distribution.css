@@ -1,0 +1,60 @@
+	
+/* we are taking two breaking point 320 and 768*/	
+html { 
+      font-size: calc(.9em + 0.4vw) 
+      
+      }
+html a 
+  { 
+    color: black;
+
+  }
+  html a:hover 
+  { 
+    color: darkgreen;
+    
+  }
+
+ 
+
+
+
+
+/*Content of cloth Div*/
+.cloth_content
+{ 
+	color:black;
+	background-color: white;
+	padding: 2px;
+	
+	max-width: 950px;
+  
+}
+.cloth_img_carousel_dimension img
+ {	
+  	margin: auto;
+    max-height: 500px;
+    width: 100%;
+}
+.cloth_success
+{ 
+	box-shadow: 0px 0px 8px 3px lightgrey;
+	border:2px red;
+	padding: 5px;
+	/*width:80%;*/
+}
+.success_photo img
+{
+	width:100%;
+	float: right;
+	border: 1px red;
+}
+.success_content
+{
+	float: left;
+	border:1px red;
+}
+.cloth_quote
+  {
+  	box-shadow: 0px 0px 8px 3px lightgrey; 
+  }

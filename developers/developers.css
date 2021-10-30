@@ -1,0 +1,95 @@
+	
+/* we are taking two breaking point 320 and 768*/	
+html { 
+      font-size: calc(.9em + 0.4vw) 
+      
+      }
+html a 
+  { 
+    color: black;
+
+  }
+  html a:hover 
+  { 
+    color: darkgreen;
+    
+  }
+body
+{
+  
+}
+ 
+/*Profile Css*/
+
+.dev_header
+{
+  margin: auto;
+  text-align: center;
+}
+.dev_card
+{
+  padding: 4px;
+}
+.dev_card img
+{
+  border-radius: 360px;
+  max-height: 100px;
+  max-width: 100px;
+
+}
+.dev_card_body
+{
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  max-height: 380px;
+  min-height: 230px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 12px;
+}
+.card img {
+ 
+}
+.image_div
+{
+  padding: 22px;
+  border-radius: 40px;
+}
+.image_div img
+{
+  border-radius:360px;
+}
+
+.title {
+  color: grey;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 4px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,1 @@
+[19-Oct-2021 17:21:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vishalt1/public_html/kaarwaan/connect_db.php on line 11

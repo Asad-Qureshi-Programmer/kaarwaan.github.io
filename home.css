@@ -1,0 +1,230 @@
+	
+/* we are taking two breaking point 320 and 768*/	
+html { 
+      font-size: calc(.9em + 0.4vw) 
+      
+      }
+html a 
+  { 
+    color: black;
+
+  }
+  html a:hover 
+  { 
+    color: darkgreen;
+    
+  }
+body
+{
+  
+}
+ .img_carousel_dimension img
+  {	
+  	margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .centerr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about_container
+{
+  width: 100%;
+   box-shadow: 3px 3px 3px lightgray;
+   margin-top: 0px;
+   /*background-color: lavender;*/
+   max-height:600px;
+   /*background-image: url(img/about_backg.jpg);*/
+   background: rgba(255,255,255,1);
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+}
+.about_right_col
+{
+/*background-color:lavender;*/
+
+margin: auto;
+}
+.about_left_col
+{
+  text-align: justify;
+  /*background-color:lavender;*/
+  margin: auto;
+  
+}
+/*Our impact */
+.outside_impact_container
+{
+  padding: 16px;
+ 
+}
+.impact_container
+{ 
+  background-image: url(img/impact.jpg);
+  background-repeat: repeat-y;
+  color: black;
+  margin:auto;
+  width: 100%;
+  margin-top: 0px;
+  box-shadow: 0px 0px 8px 3px lightgray;
+  border-radius: 6px;
+  padding: 26px;  
+
+
+  
+}
+.left_impact_container
+{ 
+  
+  margin: auto;
+
+
+}
+.impact_container_bimage
+{
+  margin: auto;
+  
+  
+}
+.mentor_image_div
+{
+  
+
+}
+.mentor_image_div img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+    /*our mentor*/
+	/* Swiper*/
+.mentor_swiper_div
+  {
+    margin-top:5%
+  }
+.mentor_swiper_container 
+   {    	
+      width: 100%;
+      height: auto;
+  }
+  .mentor_swiper_slide {
+    	
+       text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      height:100%;
+      cursor: grab;
+
+      
+
+    }
+
+.mentor_swiper_div
+    {
+    	margin-top: 0px;
+    	border: 1px solid lightgray;
+    	background-color:white;
+    }
+ .dcl_div
+ {
+  margin: auto;
+  margin-top: 5%;  
+ }
+ .dcl_div_left
+ {
+  background-color: lavenderblush;
+  text-align: center;
+  
+  padding-bottom:10px;
+ }
+
+.donate_button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.donate_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.donate_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.donate_button:hover span {
+  padding-right: 25px;
+}
+
+.donate_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}    
+
+.dcl_div_mid
+{
+  padding-bottom:10px;
+}
+  
+  .dcl_form_textarea
+  {
+    resize: none;
+  }
+
+.dcl_div_right
+{   
+    text-align: center;
+    background-color: lavender;
+    padding-top: 10px;
+}
+.social_links img
+{
+  height: 35px;
+  width: 35px;
+}
+
+
+.donate_now
+{
+  box-shadow: 0px 0px 8px 4px;
+}

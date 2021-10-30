@@ -1,0 +1,56 @@
+/*Content of child Div*/
+.child_content
+{ 
+	color:black;
+	background-color: white;
+	padding: 2px;
+	
+	max-width: 1200px;
+  
+}
+.child_img_carousel_dimension img
+ {	
+  	margin: auto;
+    max-height: 500px;
+    width: 100%;
+}
+.child_success
+{ 
+	box-shadow: 0px 0px 8px 3px lightgrey;
+	border:2px red;
+	padding: 5px;
+	/*width:80%;*/
+}
+.success_photo img
+{
+	width:100%;
+	float: right;
+	border: 1px red;
+}
+.success_content
+{	margin: auto;
+	float: left;
+	border:1px red;
+}
+.child_quote
+  {
+  	box-shadow: 0px 0px 8px 3px lightgrey; 
+  }
+  #dots 
+  {
+  	display: none;
+  }
+  .readmore_btn
+  {
+  	color: white;
+  	background-color: green;
+  	border-radius:4px;
+  	padding: 6px;
+  }
+  .readmore_btn:hover
+  {
+  	
+  	background-color: darkgreen;
+  	border-radius:4px;
+
+  }
