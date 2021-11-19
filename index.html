@@ -267,8 +267,33 @@ html a
 <div class="container-fluid about_container">
   <div>
     	<center>
-	  <p>Your centered text goes here</p>
+	  <p class="notice" >Your centered text goes here</p>
 	</center>  
+	  <style>
+         
+        .notice {
+            font-size: 5em;
+            font-family: serif;
+            color: #008000;
+            text-align: center;
+            animation: animate 
+                1.5s linear infinite;
+        }
+  
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.7;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
   </div> 	
 </div>
  
