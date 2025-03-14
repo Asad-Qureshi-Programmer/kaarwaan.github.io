@@ -261,98 +261,161 @@ html a
 
 
 <!--Footer-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
 
-<div class="container-fluid Kaarwaa_footer" style="" >
-  
-  <div class="row" >
-    <div class="col-sm-4"  >
-        
-        <a href="/faq.html"><h6>FAQ<h6></a>
-        <a href="/privacy_policy/privacy_policy.html"><h6>Privacy Poilcy</h6></a>
-        <a href="/certificate_verification/certificate_verification.html"><h6>Certificate Verification</h6></a>
-        <a href="/feedback/feedback.html"><h6>Feedback to developers</h6></a>
-        <a href="/developers/developers.html"><h6>Developers</h6></a>
-        
+<div class="container-fluid kaarwaa-footer">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-4 col-sm-6 footer-section">
+      <h6 class="footer-title"><i class="fas fa-link"></i> Quick Links</h6>
+      <ul class="footer-links">
+        <li><a href="/faq.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+        <li><a href="/privacy_policy/privacy_policy.html"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+        <li><a href="/certificate_verification/certificate_verification.html"><i class="fas fa-certificate"></i> Certificate Verification</a></li>
+        <li><a href="/feedback/feedback.html"><i class="fas fa-comment"></i> Feedback</a></li>
+        <li><a href="/developers/developers.html"><i class="fas fa-code"></i> Developers</a></li>
+      </ul>
     </div>
-    <div class="col-sm-4 footer_div_hide " >
-      <h6>Contact Us</h6>
-      <p>Jabalpur Engineering College,<br>
-       Gokalpur, Jabalpur (M.P.)<br>
-      +917617319811<br>
-      kaarwaa.n16@gmail.com</p>
+    <div class="col-lg-3 col-md-4 col-sm-6 footer-section footer_div_hide">
+      <h6 class="footer-title"><i class="fas fa-address-book"></i> Contact Us</h6>
+      <ul class="footer-contact">
+        <li><i class="fas fa-university"></i> Jabalpur Engineering College</li>
+        <li><i class="fas fa-map-marker-alt"></i> Gokalpur, Jabalpur (M.P.)</li>
+        <li><i class="fas fa-phone"></i> +91 95750 16117</li>
+        <li><a href="mailto:kaarwaanjec@gmail.com"><i class="fas fa-envelope"></i> kaarwaanjec@gmail.com</a></li>
+      </ul>
     </div>
-    <div class="col-sm-4 footer_div_hide" >
-        <a href="/child_education/child_education.html"><h6>Child Education</h6></a>
-        <a href="/orphanage/orphanage.html"><h6>Oraphaneg Visit<h6></a>
-        <a href="/plantation/plantation.html"><h6>Plantation</h6></a>
-        <a href="/cloth_distibution/cloth_distibution.html"><h6>Cloth Distribution<h6></a>  
-        
-        
+    <div class="col-lg-3 col-md-4 col-sm-6 footer-section footer_div_hide">
+      <h6 class="footer-title"><i class="fas fa-hands-helping"></i> Our Initiatives</h6>
+      <ul class="footer-links">
+        <li><a href="/child_education/child_education.html"><i class="fas fa-child"></i> Child Education</a></li>
+        <li><a href="/orphanage/orphanage.html"><i class="fas fa-home"></i> Orphanage Visit</a></li>
+        <li><a href="/plantation/plantation.html"><i class="fas fa-tree"></i> Plantation</a></li>
+        <li><a href="/cloth_distibution/cloth_distibution.html"><i class="fas fa-tshirt"></i> Cloth Distribution</a></li>
+      </ul>
     </div>
-  </div>  
+  </div>
 </div>
-<div class="container-fluid bottom_line">
-    <p>© 2019 JEC KAARWAA.N... All Rights Reserved.</p>
+<div class="container-fluid kaarwaa-bottom-line">
+  <p><i class="fas fa-copyright"></i> 2025 JEC KAARWAA.N. All Rights Reserved.</p>
 </div>
-
-
-
 
 <style type="text/css">
+/* Scoped to footer only */
+.kaarwaa-footer {
+  background: #1a2b49; /* Navy blue */
+  padding: 60px 0;
+  color: #d4d4d4;
+  font-family: 'Roboto', sans-serif;
+}
 
-
-
-.Kaarwaa_footer
-{
-  background-color:gray;
-  background-color: #444342;
-  padding-top: 20px;
+.kaarwaa-footer .footer-section {
   text-align: center;
-  color:#BFBCBC;
+  margin-bottom: 40px;
+  padding: 0 20px; /* Adds horizontal padding for spacing */
 }
-.Kaarwaa_footer a
-{
-  color:#BFBCBC;
-}
-.Kaarwaa_footer p
-{
-  color:#BFBCBC;
-}
-.Kaarwaa_footer h6
-{
-  color:#BFBCBC;
-}  
 
-.bottom_line
-{
-  background-color: #444342;text-align: center;border-top: 1px solid lightgray;
-  color: #BFBCBC;
+.kaarwaa-footer .footer-title {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
-  
- /*media query if screen size less than 576*/
-  @media only screen and (max-width: 575px) { 
-  .footer_div_hide
-   {
+
+.kaarwaa-footer .footer-title i {
+  margin-right: 12px;
+  color: #d4af37; /* Gold accent */
+}
+
+.kaarwaa-footer .footer-links,
+.kaarwaa-footer .footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kaarwaa-footer .footer-links li,
+.kaarwaa-footer .footer-contact li {
+  margin: 18px 0;
+  font-size: 1rem;
+}
+
+.kaarwaa-footer .footer-links a,
+.kaarwaa-footer .footer-contact a {
+  color: #d4d4d4;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kaarwaa-footer .footer-links a:hover,
+.kaarwaa-footer .footer-contact a:hover {
+  color: #d4af37; /* Gold on hover */
+  transform: translateX(8px);
+}
+
+.kaarwaa-footer .footer-links i,
+.kaarwaa-footer .footer-contact i {
+  margin-right: 12px;
+  width: 22px;
+  color: #d4af37; /* Gold icons */
+}
+
+.kaarwaa-bottom-line {
+  background: #14213d; /* Darker navy */
+  padding: 25px 0;
+  text-align: center;
+  color: #a0a0a0;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.kaarwaa-bottom-line i {
+  margin-right: 10px;
+  color: #d4af37; /* Gold copyright icon */
+}
+
+/* Media query if screen size less than 576px */
+@media only screen and (max-width: 575px) {
+  .kaarwaa-footer .footer_div_hide {
     display: none;
-   }  
-
   }
   
-  /*media query if screen size less than 768*/
-  @media only screen and (max-width: 768px) {
+  .kaarwaa-footer .footer-section {
+    margin-bottom: 50px;
+  }
+}
+
+/* Media query if screen size less than 768px */
+@media only screen and (max-width: 768px) {
+  .kaarwaa-footer {
+    padding: 50px 0;
+  }
   
- 
+  .kaarwaa-footer .footer-title {
+    font-size: 1.15rem;
+  }
+  
+  .kaarwaa-footer .footer-section {
+    padding: 0 15px;
+  }
 }
 
-  /*media query if screen size greater than 768*/
-  @media only screen  and (min-width : 768px) 
-{
-    
-
-    
+/* Media query if screen size greater than 768px */
+@media only screen and (min-width: 768px) {
+  .kaarwaa-footer .row {
+    max-width: 1400px; /* Wider container for more spacing */
+    margin: 0 auto;
+  }
+  
+  .kaarwaa-footer .footer-section {
+    padding: 0 30px; /* Increased padding for larger gaps */
+  }
 }
-
-
 </style>
 
 
