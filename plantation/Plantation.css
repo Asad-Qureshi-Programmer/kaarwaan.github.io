@@ -15,7 +15,11 @@ html a
     
   }
 
-
+.card-img-top{
+	max-width: 300px;
+	object-fit: cover;
+	height: 100%;
+}
 
 
 /*Content of cloth Div*/

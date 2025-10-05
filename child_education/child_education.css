@@ -11,7 +11,7 @@
 .child_img_carousel_dimension img
  {	
   	margin: auto;
-    max-height: 500px;
+    max-height: 400px;
     width: 100%;
 }
 .child_success
@@ -54,3 +54,15 @@
   	border-radius:4px;
 
   }
+
+  .carousel-control-prev-icon.activity,
+.carousel-control-next-icon.activity {
+  filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(180deg);
+  
+  /* filter: invert(1); */
+}
+
+.card-img-top{
+	height: 300px;
+	object-fit: cover;
+}

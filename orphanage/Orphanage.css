@@ -51,3 +51,9 @@ html a
 	float: left;
 	border:1px red;
 }
+
+.card-img-top{
+	max-width: 300px;
+	object-fit: cover;
+	height: 100%;
+}

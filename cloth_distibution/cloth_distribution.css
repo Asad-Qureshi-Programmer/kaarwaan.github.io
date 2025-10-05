@@ -16,7 +16,14 @@ html a
   }
 
  
-
+  .card-img-top{
+	/* max-width: 300px; */
+	object-fit: cover;
+	height: 400px;
+	object-position: center;
+	/* height: 100%; */
+	/* width: 100%;  */
+}
 
 
 
